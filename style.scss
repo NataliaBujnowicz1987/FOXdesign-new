@@ -59,8 +59,7 @@ h1 {
 
 section {
     min-height: 100vh;
-    border: 3px dotted green;
-    // width: 100vw;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +69,6 @@ section {
 
     }
     .section-container {
-        
         background-color: #EFEFEB;
         max-width: 1150px;
         width: 100%;
@@ -88,11 +86,13 @@ section {
         @media only screen and (max-width: 850px) {
             max-width: 550px;
             margin-top: 1.5em;
+            margin-bottom: 0em;
         }
 
         @media only screen and (max-width: 600px) {
             max-width: 320px;
             margin-top: 1.5em;
+            margin-bottom: 0em;
         }
         // about us section
         &--icons {
