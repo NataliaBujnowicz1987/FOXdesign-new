@@ -6,7 +6,7 @@ const tl = gsap.timeline({ delay: 0.4, defaults: { visibility: 'hidden', ease: '
 
 // fox
 tl.staggerFromTo(logo.children, 2,
-    { scale: 0.4, opacity: 0, },
+    { scale: 0.8, opacity: 0, },
     { scale: 1, opacity: 1, visibility: "visible" }, 0.1)
 
 

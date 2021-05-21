@@ -20,10 +20,8 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   overflow-x: hidden;
   height: auto;
-  -ms-touch-action: none;
-      touch-action: none;
   width: 100vw;
-  border: 4px solid blue;
+  border: 4px solid pink;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,7 +44,7 @@ body {
 }
 
 h1 {
-  color: #253812;
+  color: #517a44;
   text-align: center;
   font-family: 'Major Mono Display', monospace;
 }
@@ -234,7 +232,7 @@ header .header--content .header--logo {
 }
 
 header .header--content .header--title h1 {
-  color: #253812;
+  color: #517a44;
   margin-bottom: 0.3em;
   text-align: center;
   font-family: 'Major Mono Display', monospace;
@@ -270,7 +268,7 @@ header .header--content .header--title__name {
   color: #E09D30;
   -webkit-text-fill-color: #EFEFEB;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #253812;
+  -webkit-text-stroke-color: #517a44;
 }
 
 header .header--content .header--title__name span {
@@ -297,14 +295,14 @@ header .header--content .header--title__name span:hover {
 }
 
 header .header--content .header--title__name:hover {
-  color: #253812;
-  -webkit-text-fill-color: #253812;
-  -webkit-text-stroke-color: #253812;
+  color: #517a44;
+  -webkit-text-fill-color: #517a44;
+  -webkit-text-stroke-color: #517a44;
 }
 
 header .header--subtitle {
   text-align: center;
-  color: #253812;
+  color: #517a44;
   line-height: 2em;
 }
 
