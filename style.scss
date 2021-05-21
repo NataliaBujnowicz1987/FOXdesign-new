@@ -25,10 +25,12 @@ body {
     height: auto;
     // touch-action: none;
     width: 100%;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-evenly;
-    // align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 2em 0;
     @media only screen and (max-width: 850px) {
     //    height: auto;
     //    overflow-y: scroll;
@@ -57,6 +59,7 @@ h1 {
 
 section {
     min-height: 100vh;
+    border: 3px dotted green;
     // width: 100vw;
     display: flex;
     justify-content: center;
@@ -67,6 +70,7 @@ section {
 
     }
     .section-container {
+        
         background-color: #EFEFEB;
         max-width: 1150px;
         width: 100%;
@@ -74,7 +78,7 @@ section {
         padding: 2em;
         outline: 1px solid $orange-light-color;
         outline-offset: 10px;
-        margin-bottom: 2em;
+        margin-bottom: 2.5em;
         @media only screen and (max-width: 1195px) and (min-width: 1000px) {
             max-width: 950px;
             // width: 100%;
