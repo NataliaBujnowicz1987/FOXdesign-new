@@ -20,21 +20,7 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   overflow-x: hidden;
   height: auto;
-  width: 100vw;
-  border: 4px solid pink;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  width: 100%;
 }
 
 @media only screen and (max-width: 850px) {
@@ -44,7 +30,7 @@ body {
 }
 
 h1 {
-  color: #517a44;
+  color: #E09D30;
   text-align: center;
   font-family: 'Major Mono Display', monospace;
 }
@@ -81,14 +67,6 @@ section {
           flex-direction: column;
 }
 
-@media only screen and (max-width: 999px) {
-  section {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
-  }
-}
-
 section .section-container {
   background-color: #EFEFEB;
   max-width: 1150px;
@@ -97,12 +75,14 @@ section .section-container {
   padding: 2em;
   outline: 1px solid #E09D30;
   outline-offset: 10px;
+  margin-bottom: 2em;
 }
 
 @media only screen and (max-width: 1195px) and (min-width: 1000px) {
   section .section-container {
     max-width: 950px;
     margin-top: 2em;
+    margin-bottom: 0em;
   }
 }
 
@@ -302,7 +282,7 @@ header .header--content .header--title__name:hover {
 
 header .header--subtitle {
   text-align: center;
-  color: #517a44;
+  color: #5E3A20;
   line-height: 2em;
 }
 
@@ -424,6 +404,7 @@ header .header--subtitle h3:nth-of-type(2)::before, header .header--subtitle h3:
 
 .about-section p {
   margin-bottom: 1.5em;
+  color: #5E3A20;
 }
 
 @media only screen and (max-width: 850px) {
@@ -470,6 +451,11 @@ header .header--subtitle h3:nth-of-type(2)::before, header .header--subtitle h3:
     padding: 1em;
     line-height: 1.5em;
   }
+}
+
+.slider-dots b {
+  color: #517a44;
+  text-decoration: underline;
 }
 
 .slider-dots .active,
